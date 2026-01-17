@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Cosmo Comics Feedback-form</title>
+    <link rel="shortcut icon" href="./image/124.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="back-img">
+      <img src="./image/background-image.jpg" alt="" />
+      <div id="over-lay"></div>
+      <div id="container">
+        <h1>Cosmo-Comics</h1>
+        <div id="des">
+          <p>Journey to the manga galaxy</p>
+          <i class="fa-brands fa-mandalorian" style="color: #ff8c00"></i>
+        </div>
+        <div id="feedback-title">
+          <h2>Feedback Form</h2>
+          <form action="" id="form1" autocomplete="off">
+            <textarea
+              name="feedback"
+              id="feedback"
+              maxlength="200"
+              rows="9"
+              cols="25"
+            ></textarea>
+            <div class="msgdiv">
+              <small id="errormsg"></small>
+              <small id="counter">0/200</small>
+            </div>
+            <button type="submit" id="button" >Submit Feedback</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
